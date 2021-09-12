@@ -1,10 +1,20 @@
-title: Node.js Project
+title: Javascript par la pratique
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Introduction
+  statement: markdowns/intro.md
+
+- title: Pourquoi le langage Javascript
+  statement: js_project/PourquoiJavascript.md
+
+- title: Environnement de développement
+  statement: markdowns/Environnement.md
+
+- title: Les variables
+  statement: markdowns/lesVariables.md
+
 projects:
-  nodejs:
-    root: /nodejs-project
-    runner:
-      name: techio/node-npm-runner
-      version: latest
+   nodejs:
+     root: /js_project
+     runner:
+       name: techio/node-npm-runner
+       version: latest
