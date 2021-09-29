@@ -8,17 +8,17 @@
 
 #nav-droite, #nav-gauche{
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     color: white;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 #nav-droite{
-    right: 20px;
+    right: 30px;
 }
 #nav-gauche{
-    left: 20px;
+    left: 30px;
 }
 
 /* les éléments côte à côte au moyen d'une flexbox et nous plaçons le texte au centre de chaque élément*/
