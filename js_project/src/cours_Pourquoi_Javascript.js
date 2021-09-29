@@ -2,7 +2,7 @@
 let compteur = 0 // Compteur qui permettra de savoir sur quelle slide nous sommes
 let timer, elements, slides, slideWidth
 
-window.onload = () => {
+// window.onload = () => {
 
 // On récupère le conteneur principal du diaporama
 const diapo = document.querySelector(".diapo")
@@ -17,9 +17,7 @@ slides = Array.from(elements.children)
 let next = document.querySelector("#nav-droite")
 let prev = document.querySelector("#nav-gauche")
 
-// Variables globales
-let compteur = 0 // Compteur qui permettra de savoir sur quelle slide nous sommes
-let timer, elements, slides, slideWidth
+
 
 // On calcule la largeur visible du diaporama
 slideWidth = diapo.getBoundingClientRect().width
@@ -40,7 +38,7 @@ prev.addEventListener("click", slidePrev)
         slideWidth = diapo.getBoundingClientRect().width
         slideNext()
     })
-}
+//}
 /**
  * Cette fonction fait défiler le diaporama vers la droite
  */
