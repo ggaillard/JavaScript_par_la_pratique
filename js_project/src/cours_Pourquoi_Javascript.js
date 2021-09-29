@@ -1,3 +1,9 @@
+// Variables globales
+let compteur = 0 // Compteur qui permettra de savoir sur quelle slide nous sommes
+let timer, elements, slides, slideWidth
+
+window.onload = () => {
+
 // On récupère le conteneur principal du diaporama
 const diapo = document.querySelector(".diapo")
 
