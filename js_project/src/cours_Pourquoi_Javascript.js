@@ -22,6 +22,19 @@ slideWidth = diapo.getBoundingClientRect().width
 next.addEventListener("click", slideNext)
 prev.addEventListener("click", slidePrev)
 
+    // Automatiser le diaporama
+    timer = setInterval(slideNext, 4000)
+
+    // Gérer le survol de la souris
+    diapo.addEventListener("mouseover", stopTimer)
+     diapo.addEventListener("mouseout", startTimer)
+
+    // Mise en oeuvre du "responsive"
+    window.addEventListener("resize", () => {
+        slideWidth = diapo.getBoundingClientRect().width
+        slideNext()
+    })
+}
 /**
  * Cette fonction fait défiler le diaporama vers la droite
  */
@@ -58,8 +71,17 @@ function slidePrev(){
 
 
 
-// Mise en oeuvre du "responsive"
-window.addEventListener("resize", () => {
-    slideWidth = diapo.getBoundingClientRect().width
-    slideNext()
-})
+/**
+ * On stoppe le défilement
+ */
+function stopTimer(){
+    clearInterval(timer)
+}
+
+/**
+ * On redémarre le défilement
+ */
+function startTimer(){
+    timer = setInterval(slideNext, 4000)
+}
+
