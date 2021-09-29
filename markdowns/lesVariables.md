@@ -4,9 +4,10 @@
 
 
 
-## Déclaration des variables
+## Déclaration des variables:   `let` et `var`
 
-`let` permet de déclarer des variables dont la portée est limitée à celle du bloc dans lequel elles sont déclarées. Le mot-clé `var`, quant à lui, permet de définir une variable globale ou locale à une fonction (sans distinction des blocs utilisés dans la fonction).
+`let` permet de déclarer des variables dont la portée est limitée à celle du bloc dans lequel elles sont déclarées. 
+Le mot-clé `var`, quant à lui, permet de définir une variable globale ou locale à une fonction (sans distinction des blocs utilisés dans la fonction).
 
 Voici un morceau de code avec la déclaration de variables
 
