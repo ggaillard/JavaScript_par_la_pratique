@@ -57,7 +57,7 @@ let maSpecialite = 'SLAM';
 ## Typage faible
 ```javascript
 var myNumber = '500'; // oops, c'est toujours une chaîne
-console.log((typeof(myNumber));
+console.log(typeof(myNumber));
 ```
 ```javascript
 myNumber = 500; // mieux — maintenant c'est un nombre
