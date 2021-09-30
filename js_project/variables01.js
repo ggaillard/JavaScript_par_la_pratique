@@ -1,4 +1,4 @@
-# La déclaration des variables.
+// La déclaration des variables.
 
 // Créez ci-dessous les variables demandées
 
@@ -6,11 +6,11 @@
 
 
 
-// { autofold
+{ autofold
 module.exports = {
 	num: num,
 	txt: txt,
 	bin: bin,
 	flt: flt	
 };
-// }
+}
