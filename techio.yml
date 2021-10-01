@@ -13,7 +13,7 @@ plan:
   statement: markdowns/lesVariables.md
 
 projects:
-   nodejs:
+   js:
      root: "/js_project"
      runner:
        name: techio/node-npm-runner
