@@ -72,10 +72,10 @@ Entrez ces quatre lignes dans la console les unes à la suite des autres, et voy
 ## Types de variables
 
 Dans l'exercice ci-dessous vous devez créer les variables suivantes : 
-- `num`qui contient le nombre 255  
-- `txt` qui contient la chaîne de caractère *255*  
+- `num`qui contient le nombre 42 
+- `txt` qui contient la chaîne de caractère *42*  
 - `bin` qui contient la valeur booléenne *vraie*  
-- `flt` qui contient la valeur 7,23  
+- `flt` qui contient la valeur 42,42  
 
 @[Créez les variables demandées ci-dessus]({ "stubs": ["variables01.js"], "command": "node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
 
