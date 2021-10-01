@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./variables1.js');
+var mod = require('./variables01.js');
 
 it("Création des variables : num, txt, bin et flt", function () {
   try
