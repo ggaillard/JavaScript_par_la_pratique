@@ -6,11 +6,11 @@
 
 
 
-{ autofold
+// { autofold
 module.exports = {
 	num: num,
 	txt: txt,
 	bin: bin,
 	flt: flt	
 };
-}
+// }
