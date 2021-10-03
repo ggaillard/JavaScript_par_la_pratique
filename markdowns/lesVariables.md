@@ -77,9 +77,9 @@ Dans l'exercice ci-dessous vous devez créer les variables suivantes :
 - `bin` qui contient la valeur booléenne *vraie*  
 - `flt` qui contient la valeur 42,42  
 
-@[Créez les variables demandées ci-dessus]({ "stubs": ["variables01.js"], "command": "node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
+@[Créez les variables demandées ci-dessus]({"stubs": ["variables01.js"], "command":"node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
 
-@[Créez les variables et réalisez les opérations demandées]({ "stubs": ["variables01.js"], "command": "node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
+@[Créez les variables et réalisez les opérations demandées]({"stubs": ["variables01.js"], "command":"node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
 ## Opérations sur les variables
 
 ...
