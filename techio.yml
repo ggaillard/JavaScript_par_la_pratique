@@ -15,6 +15,6 @@ plan:
 projects:
   js:
     root: "/js_project"
-    runner: techio/node-npm-runner
+    runner: node
       
   
