@@ -4,8 +4,5 @@
   "description": "",
   "author": "G.G",
   "license": "",
-  "dependencies": {
-		"mocha": "*",
-		"should": ">= 0.0.1"
-	}
+ 
 }
