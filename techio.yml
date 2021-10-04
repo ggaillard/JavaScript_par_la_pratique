@@ -14,7 +14,7 @@ plan:
 
 projects:
   nodejs:
-    root: /nodejs-project
+    root: /js_project
     runner:
       name: techio/node-npm-runner
       version: latest-runner
