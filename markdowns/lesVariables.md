@@ -98,12 +98,4 @@ C'est à vous de proposer la suite ...
 
 Vous devez écrire la ligne pour renvoyer le contenu de la variable `str` en utilisant la méthode `toUpperCase()`
 
-```javascript runnable
-
-function toUpper(str) {
-	// Ecrire la ligne de code ci-dessous
-   
-}
-module.exports = toUpper;
-```
 @[Test unittest: uppercase]({"stubs":["uppercase.js"], "command":"node_modules/mocha/bin/mocha test.js --reporter list"})
