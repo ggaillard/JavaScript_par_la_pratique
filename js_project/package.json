@@ -2,7 +2,7 @@
   "name": "nodejs-project-template",
   "version": "1.0.0",
   "description": "",
-  "author": "Valéry Bruniaux",
+  "author": "G.G",
   "license": "",
   "dependencies": {
 		"mocha": "*",
