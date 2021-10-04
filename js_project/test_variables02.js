@@ -17,5 +17,5 @@ it("Opération sur les variables : num, txt, et temp", function () {
 
 function printMessage(channel, message)
 {
- // console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
+console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
 }
