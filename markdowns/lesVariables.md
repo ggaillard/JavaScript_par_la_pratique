@@ -79,6 +79,15 @@ Dans l'exercice ci-dessous vous devez créer les variables suivantes :
 
 @[Créez les variables demandées ci-dessus]({"stubs": ["variables01.js"], "command":"node_modules/mocha/bin/mocha test_variables01.js --reporter list" })
 
+## Les conversions sur les variables
+Dans cet exercice vous devez créer les variables suivantes : 
+- `num` qui contient le nombre 42  
+- `txt` qui contient la chaine de caractère *13*
+- `temp` qui contient le nombre 0  
+- Convertir la chaîne contenue dans `txt` en nombre avec *parseInt()* et mettre le résultat dans `temp` 
+- Ajouter à `num` le contenu de `temp` 
+
+@[Créez les variables et réalisez les opérations demandées]({ "stubs": ["variables02.js"], "command": "node_modules/mocha/bin/mocha test_variables02.js --reporter list" })
 
 ## Opérations sur les variables
 
