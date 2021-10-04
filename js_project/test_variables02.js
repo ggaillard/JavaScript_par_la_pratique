@@ -1,12 +1,12 @@
 var assert = require('assert');
 var mod = require('./variables02.js');
 
-it("Opération sur les variables : num, txt, et tmp", function () {
+it("Opération sur les variables : num, txt, et temp", function () {
   try
   {
     assert.equal( 42, mod.num );
     assert.equal( "13", mod.txt );
-    assert.equal( 13, mod.tmp );
+    assert.equal( 13, mod.temp );
   }
   catch (error)
   {
