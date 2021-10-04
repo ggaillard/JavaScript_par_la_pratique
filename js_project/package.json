@@ -5,7 +5,6 @@
   "author": "G.G",
   "license": "",
   "dependencies": {
-		"mocha": "*",
-		"should": ">= 0.0.1"
-	}
-}
+    "mocha": "^3.4.2"
+  },
+ }
