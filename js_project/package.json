@@ -2,9 +2,10 @@
   "name": "nodejs-project-template",
   "version": "1.0.0",
   "description": "",
-  "author": "G.G",
+  "author": "Valéry Bruniaux",
   "license": "",
   "dependencies": {
-    "mocha": "^3.4.2"
-  },
- }
+		"mocha": "*",
+		"should": ">= 0.0.1"
+	}
+}
