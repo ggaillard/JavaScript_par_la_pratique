@@ -1,5 +1,5 @@
 function toUpper(str) {
-	return str.toUpperCase();
+	// Ecrire la ligne de code ci-dessous
+	
 }
-
 module.exports = toUpper;
