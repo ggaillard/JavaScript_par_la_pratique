@@ -15,6 +15,6 @@ plan:
 projects:
   js:
     root: "/js_project"
-    runner: node
+    runner: docker pull nseydoux/techio-node
       
   
