@@ -13,6 +13,6 @@ console.log(num);
 module.exports = {
 	num: num,
 	txt: txt,
-	tmp: tmp
+	temp: temp
 };
 // }
