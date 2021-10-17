@@ -8,3 +8,6 @@ it('should return HELLO', function() {
 it('should return WORLD', function() {
 	assert.equal('WORLD', toUpper('world'));
 });
+
+//Solution
+// return str.toUpperCase();
