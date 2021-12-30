@@ -28,6 +28,6 @@ function printMessage(channel, message)
 
 //Solution
 // let num=42;
-//let txt=42;
+//let txt="42";
 //let bin=true;
 //let flt=42.42;
