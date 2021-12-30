@@ -4,7 +4,7 @@ plan:
   statement: markdowns/intro.md
 
 - title: Pourquoi le langage Javascript
-  statement: js_project/PourquoiJavascript.md
+  statement: markdowns/PourquoiJavascript.md
 
 - title: Environnement de développement
   statement: markdowns/Environnement.md
