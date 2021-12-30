@@ -5,13 +5,13 @@ it("Création des variables : num, txt, bin et flt", function () {
   try
   {
     assert.equal( 42, mod.num );
-    assert.typeOf( mod.num, 'number' );
+    assert.equal( typeof mod.num, 'number' );
     assert.equal( "42", mod.txt );
-    assert.typeOf( mod.txt, 'string' );
+    assert.equal( typeof mod.txt, 'string' );
     assert.equal( true, mod.bin );
-    assert.typeOf( mod.bin, 'boolean' );
+    assert.equal( typeof mod.bin, 'boolean' );
     assert.equal( 42.42, mod.flt );
-    assert.typeOf(mod.flt, 'number' );
+    assert.equal(typeof mod.flt, 'number' );
   }
   catch (error)
   {
