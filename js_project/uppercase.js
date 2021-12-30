@@ -5,6 +5,7 @@ function toUpper(str)
 
 
 // { autofold 
- module.exports = toUpper;
+ module.exports = {
+    toUpper: toUpper
  };
 // }
