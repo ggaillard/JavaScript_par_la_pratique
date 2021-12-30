@@ -4,9 +4,7 @@ function toUpper(str)
 	
 
 
-// { autofold...
- 
-module.exports = toUpper;
- 
-};
-// 
+// { autofold 
+ module.exports = toUpper;
+ };
+// }
