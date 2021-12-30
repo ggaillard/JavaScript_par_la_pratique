@@ -1,12 +1,12 @@
-var toUpper = require('uppercase.js');
-var assert  = require('assert');
+let exercice = require('./uppercase.js');
+let assert  = require('assert');
 
 it('should return HELLO', function() {
-	assert.equal('HELLO', toUpper('hello'));
+	assert.equal('HELLO', exercice.toUpper('hello'));
 });
 
 it('should return WORLD', function() {
-	assert.equal('WORLD', toUpper('world'));
+	assert.equal('WORLD', exercice.toUpper('world'));
 });
 
 //Solution
