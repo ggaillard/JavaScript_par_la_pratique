@@ -6,7 +6,7 @@
   "license": "",
   "dependencies": {
      "express": "^4.17.1",
-    "mocha": "^3.4.2",
+    "mocha": "*",
     "path": "*"
 }
 }
