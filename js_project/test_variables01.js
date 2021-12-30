@@ -1,5 +1,5 @@
-var assert = require('assert');
-var mod = require('./variables01.js');
+let assert = require('assert');
+let mod = require('./variables01.js');
 
 it("Création des variables : num, txt, bin et flt", function () {
   try
@@ -24,3 +24,10 @@ function printMessage(channel, message)
 {
   console.log('\nTECHIO> message --channel "' + channel + '" "' + message + '"');
 }
+
+
+//Solution
+// let num=42;
+//let txt=42;
+//let tmp=true;
+//let flt=42.42;
