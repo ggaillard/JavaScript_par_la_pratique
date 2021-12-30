@@ -10,7 +10,7 @@
 module.exports = {
 	num: num,
 	txt: txt,
-	tmp: tmp,
+	bin: bin,
 	flt: flt	
 };
 // }
